@@ -3,66 +3,72 @@
 <head>
 	<meta charset = "utf-8">
 	<title> Question </title>
+	<link href="./stylesheet/reset.css" rel="stylesheet" type="text/css">
+	<link href="./stylesheet/index3.css" rel="stylesheet" type="text/css">
 	<style type="text/css" media="screen">
-		table{
-			width: 400px;
-			height: 180px;
-		}
-		table, th, td{
-			border: 1px solid gray;
-		}
-
 	</style>
 </head>
 <body>
-	<form action="#" method="post">
-		<table>
-			<tr>
-				<th>잘생김정도</th>
-				<th>
-					<input type="radio" name="face" value="high"/>잘생김
-					<input type="radio" name="face" value="middle"/>그냥그럼
-					<input type="radio" name="face" value="low"/>못생김
-				</th>
-			</tr>
-			<tr>
-				<th>전공전문도</th>
-				<th>
-					<input type="radio" name="major" value="high"/>잘함
-					<input type="radio" name="major" value="middle"/>그냥그럼
-					<input type="radio" name="major" value="low"/>못함
-				</th>
-			</tr>
-			<tr>
-				<th>성격</th>
-				<th>
-					<input type="radio" name="major" value="high"/>좋음
-					<input type="radio" name="major" value="middle"/>그냥그럼
-					<input type="radio" name="major" value="low"/>안좋음
-				</th>
-			</tr>
-			<tr>
-				<th>흡연여부</th>
-				<th>
-					<input type="radio" name="tabaco" value="yes"/>필거같다
-					<input type="radio" name="tabaco" value="no"/>안필거같다
-				</th>
-			</tr>
-			<tr>
-				<th>하고싶은말</th>
-				<th>
-					<input type="text" size="30"/>
-				</th>
-			</tr>
-			<tr>
-				<th colspan="2">
-					<input type="submit" value="보내기">
-					<input type="reset" value="취소">
-				</th>
-			</tr>
-		</table>
-	</form>
-	<a href="index1.html">Mainpage</a>&nbsp;&nbsp;
-	<a href="index2.html">Favorite</a> 
+	<div id="top">
+		<div id="navbar">
+			<ul>
+				<li><a href="index1.html">메인 페이지</a></li>
+				<li><a href="index2.html">좋아하는 것</a></li>
+				<li><a href="index3.html">설문조사</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+		<form action="#" method="post">
+			<table>
+				<tr>
+					<th colspan = "2"> <h1>설문조사</h1> </th>
+				</tr>
+				<tr>
+					<th>잘생김정도</th>
+					<th>
+						<input type="radio" name="face" value="high"/>잘생김
+						<input type="radio" name="face" value="middle"/>그냥그럼
+						<input type="radio" name="face" value="low"/>못생김
+					</th>
+				</tr>
+				<tr>
+					<th>전공전문도</th>
+					<th>
+						<input type="radio" name="major" value="high"/>잘함
+						<input type="radio" name="major" value="middle"/>그냥그럼
+						<input type="radio" name="major" value="low"/>못함
+					</th>
+				</tr>
+				<tr>
+					<th>성격</th>
+					<th>
+						<input type="radio" name="major" value="high"/>좋음
+						<input type="radio" name="major" value="middle"/>그냥그럼
+						<input type="radio" name="major" value="low"/>안좋음
+					</th>
+				</tr>
+				<tr>
+					<th>흡연여부</th>
+					<th>
+						<input type="radio" name="tabaco" value="yes"/>필거같다
+						<input type="radio" name="tabaco" value="no"/>안필거같다
+					</th>
+				</tr>
+				<tr>
+					<th>하고싶은말</th>
+					<th>
+						<input type="text" size="30"/>
+					</th>
+				</tr>
+				<tr>
+					<th colspan="2">
+						<input type="submit" value="보내기">
+						<input type="reset" value="취소">
+					</th>
+				</tr>
+			</table>
+		</form>
+	</div>
 </body>
 </html>

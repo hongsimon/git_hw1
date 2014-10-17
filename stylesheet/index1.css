@@ -1,0 +1,30 @@
+h1 {font-size:20px; line-height:30px; font-weight:bold;}
+caption	{text-align: center;}
+
+#top {
+	color:#eee; 
+	padding:0 0 10px 0;
+	text-align:right; font-weight:bold;
+}
+
+#navbar {width:100%; height:30px;}
+#navbar ul {padding:0;}
+#navbar ul li {float:left;}
+#navbar ul li a{
+	color:#555; background-color:#bbb;
+	display:block;
+	width:120px;
+	text-align:center;
+	padding:0px 10px; 
+	font: bold 12px/30px tahoma;
+	text-decoration:none;
+	margin-right:1px;
+}
+
+#navbar ul li a:hover {color:#eee; background-color:#38ADC1;}
+
+#main {margin-left: 20px;}
+#main table{width: 400px;}
+#main img{width: 120px;}
+
+.myimage {width: 140px;}

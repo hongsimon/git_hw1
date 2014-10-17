@@ -3,46 +3,38 @@
 <head>
 	<meta charset = "utf-8">
 	<title> Mainpage </title>
-	<style type="text/css" media="screen">
-		table{
-			width: 400px;
-			height: 180px;
-		}
-		table, th, td{
-			border: 1px solid gray;
-		}
-
-		#left{
-			float: left;
-		}
-
-		img{
-			width: 150px;
-		}
-	</style>
+	<link href="./stylesheet/reset.css" rel="stylesheet" type="text/css">
+	<link href="./stylesheet/index1.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<div id = "left"> <img src = "http://myiweb.mju.ac.kr/upload/sch/sud/2010/60102415.jpg" alt = "my picture"> </div>
-	<table>
-		<tr>
-			<th colspan = "2">자기소개</th>
-		</tr>
-		<tr>
-			<td colspan = "2">이름 : 홍시몬</td>
-		</tr>
-		<tr>
-			<td colspan = "2">학교 : 명지대학교</td>
-		</tr>
-		<tr>
-			<td colspan = "2">학과 : 컴퓨터공학과</td>
-		</tr>
-		<tr>
-			<td colspan = "2">학번 : 60102415</td>
-		</tr>
-		<tr>
-			<td> <a href="index2.html">Favorite</a> </td>
-			<td> <a href="index3.html">Question</a> </td>
-		</tr>
-	</table>
+	<div id="top">
+		<div id="navbar">
+			<ul>
+				<li><a href="index1.html">메인 페이지</a></li>
+				<li><a href="index2.html">좋아하는 것</a></li>
+				<li><a href="index3.html">설문조사</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+		<table>
+			<caption><h1>자기소개</h1></caption>
+			<tr>
+				<td class="myimage" rowspan = "5">
+					<img src = "http://myiweb.mju.ac.kr/upload/sch/sud/2010/60102415.jpg" alt = "my picture">
+				</td>
+				<td colspan = "2">이름 : 홍시몬</td>
+			</tr>
+			<tr>
+				<td colspan = "2">학교 : 명지대학교</td>
+			</tr>
+			<tr>
+				<td colspan = "2">학과 : 컴퓨터공학과</td>
+			</tr>
+			<tr>
+				<td colspan = "2">학번 : 60102415</td>
+			</tr>
+		</table>
+	</div>
 </body>
 </html>
