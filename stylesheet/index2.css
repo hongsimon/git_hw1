@@ -9,7 +9,6 @@ h1 {font-size:16px; line-height:28px; font-weight:bold;}
 	text-align:right; font-weight:bold;
 }
 
-
 #navbar {width:100%; height:30px;}
 #navbar ul {padding:0;}
 #navbar ul li {float:left;}
@@ -26,4 +25,5 @@ h1 {font-size:16px; line-height:28px; font-weight:bold;}
 #navbar ul li a:hover {color:#eee; background-color:#38ADC1;}
 
 #main {margin-left: 20px;}
-#section {width: 120px; display:block; float:left;}
+.section {width: 135px; display:block; float:left;}
+.section li{margin-left: 10px}
